@@ -1,8 +1,8 @@
-import { getUser } from "/src/scripts/services/user.js"
-import { getActivity } from '/src/scripts/services/activity.js'
-import { getRepositories } from "/src/scripts/services/repository.js"
-import { user } from "/src/scripts/objects/user.js"
-import { screen } from "/src/scripts/objects/screen.js"
+import { getUser } from "./src/scripts/services/user.js"
+import { getActivity } from './src/scripts/services/activity.js'
+import { getRepositories } from "./src/scripts/services/repository.js"
+import { user } from "./src/scripts/objects/user.js"
+import { screen } from "./src/scripts/objects/screen.js"
 
 document.querySelector('#btn-search').addEventListener('click', () => {
     const userName = document.querySelector('#input-search').value
